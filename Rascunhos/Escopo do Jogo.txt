@@ -1,0 +1,29 @@
+Computação Gráfica e Jogos Digitais (6BCCA)
+
+Laura Yumi Osawa - 1979345
+Letícia Alves de Pontes - 1979942
+José Victor Santos Tranquilino de Souza - 1963245
+
+
+Título: "Glutton"
+Objetivo: Acumular o máximo de pontos sem morrer até chegar à ilha/fase final.
+ 
+
+Descrição:
+O jogador deve se alimentar de bolinhas que aparecem aleatoriamente pelo mapa. Conforme ele se alimenta, seu tamanho vai aumentando. Quando ele atinge um tamanho x (ele fica grande demais para a ilha/plataforma), a ilha/plataforma cresce, indicando que o jogador passou de fase, e o jogo continua. A pontuação é contagem de bolinhas que o jogador comeu.
+
+
+Desafios:
+- Desacelerador: desacelera o personagem.
+- Comida envenenada: ao comer uma comida envenenada, o tamanho do personagem diminui.
+- Diminuidor de tamanho: ao ser atingido por um diminuidor de tamanho, o tamanho do personagem diminui pela metade.
+- Morte instantânea: ao atingir o jogador, o jogador perde o jogo e volta para a fase anterior.
+- Obstáculos: obstáculos variados a cada intervalo de tempo. Os obstáculos são: desacelerador, comida envenenada, diminuidor de tamanho, morte instantânea.
+- Inimigos: inicialmente, são dois por fase. Ficam adormecidos por padrão. Quando o jogador se aproxima, o inimigo começa a perseguir o jogador pela ilha por x segundos. Se alcançar e bater no jogador, o jogador vai diminuindo de tamanho conforme vai sofrendo dano.
+
+
+Assets:
+- Desacelerador: poça de lama que surge do chão.
+- Comida envenenada: maçã envenenada, queijo podre.
+- Diminuidor de tamanho: poção.
+- Morte instantânea: meteoro.
